@@ -1,0 +1,627 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.0">
+  <description></description>
+  <groupId>86e85593-0156-1000-de74-34836a4cd39e</groupId>
+  <name>python_ExecuteScript</name>
+  <snippet>
+    <connections>
+      <id>440fe4d5-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>44023d4c-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>440276ec-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>44cc6dee-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <bends>
+        <x>754.280472882269</x>
+        <y>261.1654684925437</y>
+      </bends>
+      <bends>
+        <x>754.280472882269</x>
+        <y>311.1654684925437</y>
+      </bends>
+      <destination>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>44023d4c-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>44023d4c-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>4524787f-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>45240b89-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>44023d4c-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>459336f1-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <bends>
+        <x>1129.8499554404893</x>
+        <y>490.89508311281577</y>
+      </bends>
+      <bends>
+        <x>1129.8499554404893</x>
+        <y>540.8950831128158</y>
+      </bends>
+      <destination>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>45240b89-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>86e85593-0156-1000-0000-000000000000</groupId>
+        <id>45240b89-0157-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <processors>
+      <id>44023d4c-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>299.2804728822689</x>
+        <y>221.1654684925437</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Script Engine</key>
+            <value>
+              <allowableValues>
+                <displayName>ECMAScript</displayName>
+                <value>ECMAScript</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>Groovy</displayName>
+                <value>Groovy</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>lua</displayName>
+                <value>lua</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>python</displayName>
+                <value>python</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>ruby</displayName>
+                <value>ruby</value>
+              </allowableValues>
+              <defaultValue>ECMAScript</defaultValue>
+              <description>The engine to execute scripts</description>
+              <displayName>Script Engine</displayName>
+              <dynamic>false</dynamic>
+              <name>Script Engine</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Script File</key>
+            <value>
+              <description>Path to script file to execute. Only one of Script File or Script Body may be used</description>
+              <displayName>Script File</displayName>
+              <dynamic>false</dynamic>
+              <name>Script File</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>true</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Script Body</key>
+            <value>
+              <description>Body of script to execute. Only one of Script File or Script Body may be used</description>
+              <displayName>Script Body</displayName>
+              <dynamic>false</dynamic>
+              <name>Script Body</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Module Directory</key>
+            <value>
+              <description>Comma-separated list of paths to files and/or directories which contain modules required by the script.</description>
+              <displayName>Module Directory</displayName>
+              <dynamic>false</dynamic>
+              <name>Module Directory</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Script Engine</key>
+            <value>python</value>
+          </entry>
+          <entry>
+            <key>Script File</key>
+          </entry>
+          <entry>
+            <key>Script Body</key>
+            <value>import json
+import java.io
+from org.apache.commons.io import IOUtils
+
+# Get flowFile Session
+flowFile = session.get()
+
+# Open data.json file and parse json values
+filename = flowFile.getAttribute('filename')
+filepath = flowFile.getAttribute('absolute.path')
+
+data = json.loads(open(filepath + filename, "r").read())
+data_value1 = data["record"]["value1"]
+
+# Calculate arbitrary new value within python
+new_value   = data_value1 * 100
+
+# Add/Put values to flowFile as new attributes
+if (flowFile != None):
+    flowFile = session.putAttribute(flowFile, "from_python_string", "python string example")
+    flowFile = session.putAttribute(flowFile, "from_python_number", str(new_value))
+
+session.transfer(flowFile, REL_SUCCESS)
+session.commit()
+
+#ZEND</value>
+          </entry>
+          <entry>
+            <key>Module Directory</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ExecuteScript</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.script.ExecuteScript</type>
+    </processors>
+    <processors>
+      <id>440276ec-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>0.0</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Input Directory</key>
+            <value>
+              <description>The input directory from which to pull files</description>
+              <displayName>Input Directory</displayName>
+              <dynamic>false</dynamic>
+              <name>Input Directory</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>true</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>
+              <defaultValue>[^\.].*</defaultValue>
+              <description>Only files whose names match the given regular expression will be picked up</description>
+              <displayName>File Filter</displayName>
+              <dynamic>false</dynamic>
+              <name>File Filter</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+            <value>
+              <description>When Recurse Subdirectories is true, then only subdirectories whose path matches the given regular expression will be scanned</description>
+              <displayName>Path Filter</displayName>
+              <dynamic>false</dynamic>
+              <name>Path Filter</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <defaultValue>10</defaultValue>
+              <description>The maximum number of files to pull in each iteration</description>
+              <displayName>Batch Size</displayName>
+              <dynamic>false</dynamic>
+              <name>Batch Size</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Keep Source File</key>
+            <value>
+              <allowableValues>
+                <displayName>true</displayName>
+                <value>true</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>false</displayName>
+                <value>false</value>
+              </allowableValues>
+              <defaultValue>false</defaultValue>
+              <description>If true, the file is not deleted after it has been copied to the Content Repository; this causes the file to be picked up continually and is useful for testing purposes.  If not keeping original NiFi will need write permissions on the directory it is pulling from otherwise it will ignore the file.</description>
+              <displayName>Keep Source File</displayName>
+              <dynamic>false</dynamic>
+              <name>Keep Source File</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>
+              <allowableValues>
+                <displayName>true</displayName>
+                <value>true</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>false</displayName>
+                <value>false</value>
+              </allowableValues>
+              <defaultValue>true</defaultValue>
+              <description>Indicates whether or not to pull files from subdirectories</description>
+              <displayName>Recurse Subdirectories</displayName>
+              <dynamic>false</dynamic>
+              <name>Recurse Subdirectories</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>
+              <defaultValue>0 sec</defaultValue>
+              <description>Indicates how long to wait before performing a directory listing</description>
+              <displayName>Polling Interval</displayName>
+              <dynamic>false</dynamic>
+              <name>Polling Interval</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>
+              <allowableValues>
+                <displayName>true</displayName>
+                <value>true</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>false</displayName>
+                <value>false</value>
+              </allowableValues>
+              <defaultValue>true</defaultValue>
+              <description>Indicates whether or not hidden files should be ignored</description>
+              <displayName>Ignore Hidden Files</displayName>
+              <dynamic>false</dynamic>
+              <name>Ignore Hidden Files</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>
+              <defaultValue>0 sec</defaultValue>
+              <description>The minimum age that a file must be in order to be pulled; any file younger than this amount of time (according to last modification date) will be ignored</description>
+              <displayName>Minimum File Age</displayName>
+              <dynamic>false</dynamic>
+              <name>Minimum File Age</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+            <value>
+              <description>The maximum age that a file must be in order to be pulled; any file older than this amount of time (according to last modification date) will be ignored</description>
+              <displayName>Maximum File Age</displayName>
+              <dynamic>false</dynamic>
+              <name>Maximum File Age</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>
+              <defaultValue>0 B</defaultValue>
+              <description>The minimum size that a file must be in order to be pulled</description>
+              <displayName>Minimum File Size</displayName>
+              <dynamic>false</dynamic>
+              <name>Minimum File Size</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+            <value>
+              <description>The maximum size that a file can be in order to be pulled</description>
+              <displayName>Maximum File Size</displayName>
+              <dynamic>false</dynamic>
+              <name>Maximum File Size</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Input Directory</key>
+            <value>/tmp</value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>data\.json</value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>10</value>
+          </entry>
+          <entry>
+            <key>Keep Source File</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>0 B</value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>10 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>GetFile</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.GetFile</type>
+    </processors>
+    <processors>
+      <id>45240b89-0157-1000-0000-000000000000</id>
+      <parentGroupId>86e85593-0156-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>674.8499554404895</x>
+        <y>450.89508311281577</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Attributes List</key>
+            <value>
+              <description>Comma separated list of attributes to be included in the resulting JSON. If this value is left empty then all existing Attributes will be included. This list of attributes is case sensitive. If an attribute specified in the list is not found it will be be emitted to the resulting JSON with an empty string or NULL value.</description>
+              <displayName>Attributes List</displayName>
+              <dynamic>false</dynamic>
+              <name>Attributes List</name>
+              <required>false</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Destination</key>
+            <value>
+              <allowableValues>
+                <displayName>flowfile-attribute</displayName>
+                <value>flowfile-attribute</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>flowfile-content</displayName>
+                <value>flowfile-content</value>
+              </allowableValues>
+              <defaultValue>flowfile-attribute</defaultValue>
+              <description>Control if JSON value is written as a new flowfile attribute 'JSONAttributes' or written in the flowfile content. Writing to flowfile content will overwrite any existing flowfile content.</description>
+              <displayName>Destination</displayName>
+              <dynamic>false</dynamic>
+              <name>Destination</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Include Core Attributes</key>
+            <value>
+              <allowableValues>
+                <displayName>true</displayName>
+                <value>true</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>false</displayName>
+                <value>false</value>
+              </allowableValues>
+              <defaultValue>true</defaultValue>
+              <description>Determines if the FlowFile org.apache.nifi.flowfile.attributes.CoreAttributes which are contained in every FlowFile should be included in the final JSON value generated.</description>
+              <displayName>Include Core Attributes</displayName>
+              <dynamic>false</dynamic>
+              <name>Include Core Attributes</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value</key>
+            <value>
+              <allowableValues>
+                <displayName>true</displayName>
+                <value>true</value>
+              </allowableValues>
+              <allowableValues>
+                <displayName>false</displayName>
+                <value>false</value>
+              </allowableValues>
+              <defaultValue>false</defaultValue>
+              <description>If true a non existing or empty attribute will be NULL in the resulting JSON. If false an empty string will be placed in the JSON</description>
+              <displayName>Null Value</displayName>
+              <dynamic>false</dynamic>
+              <name>Null Value</name>
+              <required>true</required>
+              <sensitive>false</sensitive>
+              <supportsEl>false</supportsEl>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Attributes List</key>
+            <value>filename, from_python_number, from_python_string</value>
+          </entry>
+          <entry>
+            <key>Destination</key>
+            <value>flowfile-attribute</value>
+          </entry>
+          <entry>
+            <key>Include Core Attributes</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Null Value</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>AttributesToJSON</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.AttributesToJSON</type>
+    </processors>
+  </snippet>
+  <timestamp>09/19/2016 23:35:27 EDT</timestamp>
+</template>
