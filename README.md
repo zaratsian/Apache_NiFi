@@ -1,5 +1,4 @@
 <h3>NiFi Template - Execute Python Script</h3>
-<br>
 <br>This <a href="https://nifi.apache.org/">Apache NiFi</a> tempalate show how to execute a python script with the NiFi flow. More importantly, it shows how to capture the input and output flowFile metadata. This has been tested within NiFi 1.0.0.
 <br>
 <br>Here's what the processor does:
