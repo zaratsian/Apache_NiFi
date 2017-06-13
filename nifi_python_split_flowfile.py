@@ -56,30 +56,51 @@ class SplitCallback(InputStreamCallback):
             splits = []
             
             groups = {}
-            
+                        
             for record in input_list:
-                timestamp_key = re.findall('[0-9\-]{10} [0-9\:]{5}',record)[0]
+                
+                timestamp_full = re.findall('[0-9\-]{10} [0-9\:]{8}\,[0-9]{3}',record)[0]
+                timestamp_key  = re.findall('[0-9\-]{10} [0-9\:]{5}',record)[0]
+                
                 if timestamp_key in groups:
-                    groups[timestamp_key].append(record)
+                    groups[timestamp_key].append([record, timestamp_full])
                 else:
-                    groups[timestamp_key] = [record]
+                    groups[timestamp_key] = [[record, timestamp_full]]
             
             for k,v in groups.iteritems():
                 
-                payload = '\n'.join(v)
+                timestamp_full      = v[0][1]
+                timestamp_obj       = datetime.datetime.strptime(re.findall('[0-9\-]{10} [0-9\:]{8}\,[0-9]{3}', timestamp_full )[0], '%Y-%m-%d %H:%M:%S,%f')
+                
+                syslog_year         = str(timestamp_obj.year)
+                syslog_month        = str(timestamp_obj.month).zfill(2)
+                syslog_day          = str(timestamp_obj.day).zfill(2)
+                syslog_hour         = str(timestamp_obj.hour).zfill(2)
+                syslog_minute       = str(timestamp_obj.minute).zfill(2)
+                syslog_second       = str(timestamp_obj.second).zfill(2)
+                syslog_millisecond  = str(timestamp_obj.microsecond)[:3]
+                
+                payload = '\n'.join([item[0] for item in v])
                 
                 splitFlowFile = session.create(self.parentFlowFile)
                 writeCallback = WriteCallback()
                 writeCallback.content = payload
                 splitFlowFile = session.write(splitFlowFile, writeCallback)
                 splitFlowFile = session.putAllAttributes(splitFlowFile, {
-                    'color': 'blue'
+                    'syslog_year': syslog_year,
+                    'syslog_month': syslog_month,
+                    'syslog_day': syslog_day,
+                    'syslog_hour': syslog_hour,
+                    'syslog_minute': syslog_minute,
+                    'syslog_second': syslog_second,
+                    'syslog_millisecond': syslog_millisecond
                 })
                 
                 splits.append(splitFlowFile)
             
             for splitFlowFile in splits:
                 session.transfer(splitFlowFile, REL_SUCCESS)
+            
         except:
             traceback.print_exc(file=sys.stdout)
             raise
