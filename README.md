@@ -7,6 +7,8 @@
 <br>3.) Write attributes to json
 <br>4.) From here, the results can be saved to a simple .json file, to HDFS, sent to Kafka, Solr, etc.
 <br>
+<br><a href="https://nifi.apache.org/docs/nifi-docs/rest-api/"><b>NiFi REST API</b></a>
+<br>
 <br><b>Reference:</b> 
 <br><a href="https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html">NiFi Expression Language</a>
 <br><a href="https://community.hortonworks.com/articles/75032/executescript-cookbook-part-1.html">ExecuteScript Cookbook - Part 1</a>
