@@ -14,9 +14,9 @@
 #
 ############################################################################################
 
+import re,sys
 import requests
 import json
-
 
 
 try:
@@ -27,7 +27,6 @@ except:
     print '\tnifi_api_client.py <nifi_host>'
     print "\tnifi_api_client.py 'http://dzaratsian-hdf0.field.hortonworks.com:9090/'"
     sys.exit()
-
 
 
 def nifi_systemDiagnostics(nifi_host):
@@ -49,7 +48,7 @@ def nifi_systemDiagnostics(nifi_host):
     return data
 
 
-                                            
+
 def nifi_status(nifi_host):
     url    = re.sub('/$','',nifi_host) + '/nifi-api' + '/flow/status'   
     req    = requests.get(url)
@@ -77,12 +76,33 @@ def nifi_metadata(nifi_host):
     list_connections    = [connection['id'] for connection in data['searchResultsDTO']['connectionResults']]
     list_inputports     = [inputport['id'] for inputport in data['searchResultsDTO']['inputPortResults']]
     list_outputports    = [outputport['id'] for outputport in data['searchResultsDTO']['outputPortResults']]
+    print '\n'
+    print '#########################################################################'
+    print '[ INFO ] NiFi Metadata:'
+    print '#########################################################################'
     print '[ INFO ] Total Process Groups:   ' + str(len(list_process_group))
     print '[ INFO ] Total Processors:       ' + str(len(list_processors))
     print '[ INFO ] Total Connections:      ' + str(len(list_connections))
     print '[ INFO ] Total Input Ports:      ' + str(len(list_inputports))
     print '[ INFO ] Total Output Ports:     ' + str(len(list_outputports))
+    print '\n'
     return list_process_group, list_processors, list_connections
+
+
+
+def nifi_process_group_status(process_group_id, nifi_host):
+    url  = re.sub('/$','',nifi_host) + '/nifi-api' + '/flow/process-groups/' + str(process_group_id) + '/status'   
+    req  = requests.get(url)
+    data = json.loads(req.content)
+    process_group_name           = data['processGroupStatus']['name']
+    process_group_queued_count   = data['processGroupStatus']['aggregateSnapshot']['queued']
+    process_group_status_message = '''
+    #########################################################################
+    [ INFO ] Process Group Details:
+    #########################################################################
+    [ INFO ] Process Group ID:       ''' + str(process_group_id) + '''
+    [ INFO ] Process Group Name:     ''' + str(process_group_name)
+    return process_group_status_message, process_group_name
 
 
 
@@ -90,14 +110,53 @@ def nifi_processor_status(processor_id, nifi_host):
     url  = re.sub('/$','',nifi_host) + '/nifi-api' + '/flow/processors/' + str(processor_id) + '/status'   
     req  = requests.get(url)
     data = json.loads(req.content)
-    print '[ INFO ] Processor ID:           ' + str(processor_id)
-    print '[ INFO ] Processor Name:         ' + str(data['processorStatus']['name'])
-    print '[ INFO ] Processor GroupID:      ' + str(data['processorStatus']['groupId'])
-    print '[ INFO ] Processor Run Status:   ' + str(data['processorStatus']['aggregateSnapshot']['runStatus'])
-    print '[ INFO ] FlowFiles In:           ' + str(data['processorStatus']['aggregateSnapshot']['flowFilesIn'])
-    print '[ INFO ] FlowFiles Out:          ' + str(data['processorStatus']['aggregateSnapshot']['flowFilesOut'])
-    print '[ INFO ] Active Thread Count:    ' + str(data['processorStatus']['aggregateSnapshot']['activeThreadCount'])
-    return data
+    processor_name           = data['processorStatus']['name']
+    processor_group_id       = data['processorStatus']['groupId']
+    processor_runstatus      = data['processorStatus']['aggregateSnapshot']['runStatus']
+    processor_status_message = '''
+    #########################################################################
+    [ INFO ] Processor Details:
+    #########################################################################
+    [ INFO ] Processor ID:           ''' + str(processor_id) + '''
+    [ INFO ] Processor Name:         ''' + str(processor_name) + '''
+    [ INFO ] Processor GroupID:      ''' + str(processor_group_id) + '''
+    [ INFO ] Processor Run Status:   ''' + str(processor_runstatus) + '''
+    [ INFO ] FlowFiles In:           ''' + str(data['processorStatus']['aggregateSnapshot']['flowFilesIn']) + '''
+    [ INFO ] FlowFiles Out:          ''' + str(data['processorStatus']['aggregateSnapshot']['flowFilesOut']) + '''
+    [ INFO ] Active Thread Count:    ''' + str(data['processorStatus']['aggregateSnapshot']['activeThreadCount'])
+    return processor_status_message, processor_id, processor_name, processor_group_id, processor_runstatus
+
+
+
+def nifi_connection(connection_id, nifi_host):
+    url  = re.sub('/$','',nifi_host) + '/nifi-api' + '/connections/' + str(connection_id)  
+    req  = requests.get(url)
+    data = json.loads(req.content)
+    conn_name                           = data['status']['name']
+    conn_group_id                       = data['status']['groupId']
+    conn_queue_count                    = data['status']['aggregateSnapshot']['queued']
+    conn_flowfiles_in                   = data['status']['aggregateSnapshot']['flowFilesIn']
+    conn_flowfiles_out                  = data['status']['aggregateSnapshot']['flowFilesOut']
+    conn_percent_use_count              = data['status']['aggregateSnapshot']['percentUseCount']
+    conn_percent_use_bytes              = data['status']['aggregateSnapshot']['percentUseBytes']   
+    conn_backpressure_size_threshold    = data['component']['backPressureDataSizeThreshold']
+    conn_backpressure_obj_threshold     = data['component']['backPressureObjectThreshold']
+    conn_pattern                        = str(data['status']['sourceName']) + ' >> ' + str(conn_name) + ' >> ' + str(data['status']['destinationName'])
+    conn_message                        = '''
+    #########################################################################
+    [ INFO ] Connection Details:
+    #########################################################################
+    [ INFO ] Connection ID:          ''' + str(connection_id) + '''
+    [ INFO ] Connection Name:        ''' + str(conn_name) + '''
+    [ INFO ] Processor GroupID:      ''' + str(conn_group_id) + '''
+    [ INFO ] FlowFiles Queued:       ''' + str(conn_queue_count) + '''
+    [ INFO ] FlowFiles In:           ''' + str(conn_flowfiles_in) + '''
+    [ INFO ] FlowFiles Out:          ''' + str(conn_flowfiles_out) + '''
+    [ INFO ] Source Name:            ''' + str(data['status']['sourceName']) + '''
+    [ INFO ] Source ID:              ''' + str(data['status']['sourceId']) + '''
+    [ INFO ] Destination Name:       ''' + str(data['status']['destinationName']) + '''
+    [ INFO ] Destination ID:         ''' + str(data['status']['destinationId'])
+    return conn_message, conn_name, conn_group_id, conn_queue_count, conn_flowfiles_in, conn_flowfiles_out, conn_percent_use_count, conn_percent_use_bytes, conn_pattern
 
 
 
@@ -111,22 +170,45 @@ def nifi_connection_status(connection_id, nifi_host):
     connection_flowfiles_in     = data['connectionStatus']['aggregateSnapshot']['flowFilesIn']
     connection_flowfiles_out    = data['connectionStatus']['aggregateSnapshot']['flowFilesOut']
     connection_pattern          = str(data['connectionStatus']['sourceName']) + ' >> ' + str(connection_name) + ' >> ' + str(data['connectionStatus']['destinationName'])
-    print '\n'
-    print '#########################################################################'
-    print '[ INFO ] Connection Details:'
-    print '#########################################################################'
-    print '[ INFO ] Connection ID:          ' + str(connection_id)
-    print '[ INFO ] Connection Name:        ' + str(connection_name)
-    print '[ INFO ] Processor GroupID:      ' + str(connection_group_id)
-    print '[ INFO ] FlowFiles Queued:       ' + str(connection_queue_count)
-    print '[ INFO ] FlowFiles In:           ' + str(connection_flowfiles_in)
-    print '[ INFO ] FlowFiles Out:          ' + str(connection_flowfiles_out)
-    print '[ INFO ] Source Name:            ' + str(data['connectionStatus']['sourceName'])
-    print '[ INFO ] Source ID:              ' + str(data['connectionStatus']['sourceId'])
-    print '[ INFO ] Destination Name:       ' + str(data['connectionStatus']['destinationName'])
-    print '[ INFO ] Destination ID:         ' + str(data['connectionStatus']['destinationId'])
-    return connection_name, connection_group_id, connection_queue_count, connection_flowfiles_in, connection_flowfiles_out, connection_pattern
+    connection_status_message   = '''
+    #########################################################################
+    [ INFO ] Connection Details:
+    #########################################################################
+    [ INFO ] Connection ID:          ''' + str(connection_id) + '''
+    [ INFO ] Connection Name:        ''' + str(connection_name) + '''
+    [ INFO ] Processor GroupID:      ''' + str(connection_group_id) + '''
+    [ INFO ] FlowFiles Queued:       ''' + str(connection_queue_count) + '''
+    [ INFO ] FlowFiles In:           ''' + str(connection_flowfiles_in) + '''
+    [ INFO ] FlowFiles Out:          ''' + str(connection_flowfiles_out) + '''
+    [ INFO ] Source Name:            ''' + str(data['connectionStatus']['sourceName']) + '''
+    [ INFO ] Source ID:              ''' + str(data['connectionStatus']['sourceId']) + '''
+    [ INFO ] Destination Name:       ''' + str(data['connectionStatus']['destinationName']) + '''
+    [ INFO ] Destination ID:         ''' + str(data['connectionStatus']['destinationId'])
+    return connection_status_message, connection_name, connection_group_id, connection_queue_count, connection_flowfiles_in, connection_flowfiles_out, connection_pattern
 
+
+
+if __name__ == '__main__':
+    
+    list_process_group, list_processors, list_connections = nifi_metadata(nifi_host)
+    
+    print '#########################################################################'
+    print '[ INFO ] Detecting NiFi Issues, then printing results...'
+    print '#########################################################################'
+    
+    # Flag any processors that are not running
+    for processor_id in list_processors:
+        processor_status_message, processor_id, processor_name, processor_group_id, processor_runstatus = nifi_processor_status(processor_id, nifi_host)
+        process_group_status_message, process_group_name = nifi_process_group_status(processor_group_id, nifi_host)
+        if processor_runstatus != 'Running':
+            print '[ WARNING ] Processor ' + str(processor_name) + ' has a status of ' + str(processor_runstatus) + ' (Process Group: ' + str(process_group_name) + ')' 
+    
+    # Flag any connection that has a high queue count (either the bytes or count is queud over X%)
+    for connection_id in list_connections:
+        conn_message, conn_name, conn_group_id, conn_queue_count, conn_flowfiles_in, conn_flowfiles_out, conn_percent_use_count, conn_percent_use_bytes, conn_pattern = nifi_connection(connection_id, nifi_host)
+        process_group_status_message, process_group_name = nifi_process_group_status(conn_group_id, nifi_host)
+        if (conn_percent_use_count >= 80) or (conn_percent_use_bytes >= 80):
+            print '[ WARNING ] Connection ' + str(conn_name) + ' is at or over 80% capacity (Process Group: ' + str(conn_group_id) + ')'
 
 
 
