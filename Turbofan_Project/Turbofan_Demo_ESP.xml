@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.1">
+  <description></description>
+  <groupId>7e80cebf-015d-1000-316b-8cfdc3fcd66b</groupId>
+  <name>Turbofan_Demo_ESP</name>
+  <snippet>
+    <processors>
+      <id>bf12078a-0055-3d11-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>0.0</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+  </snippet>
+  <timestamp>09/06/2017 13:19:35 EDT</timestamp>
+</template>
