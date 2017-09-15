@@ -1,0 +1,4737 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.1">
+  <description></description>
+  <groupId>7e80cebf-015d-1000-316b-8cfdc3fcd66b</groupId>
+  <name>TurboFan</name>
+  <snippet>
+    <connections>
+      <id>826e2265-6f5f-3ada-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>bf12078a-0055-3d11-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>f5f2aa00-c0fd-3044-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>842e036b-3cb3-3712-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>f5f2aa00-c0fd-3044-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan2</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>894691da-5286-3262-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>1ec09ae7-6acb-3703-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>894d8f81-031f-3d75-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>9ab988f2-44d4-3681-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>433e747b-5bf9-3220-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>adc542a1-e3cc-3d3d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>a0eef318-8b42-373d-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>67059903-7cd5-379e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan5</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>bc99f32b-b48c-39f3-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>44db6d4a-2f57-3728-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>433e747b-5bf9-3220-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>c3fb3c11-290a-341c-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>461c63e0-f9c1-3011-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan3</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>c574e661-2930-3777-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <bends>
+        <x>2412.2215613919398</x>
+        <y>238.29911708831787</y>
+      </bends>
+      <bends>
+        <x>2412.2215613919398</x>
+        <y>288.29911708831787</y>
+      </bends>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>433e747b-5bf9-3220-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>433e747b-5bf9-3220-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>dde7b192-0ea3-369f-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>83ef7a99-a5f3-3702-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>0fe91330-1a76-3316-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>e0ecc9bb-56fd-3c3d-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>df6bf060-2c4b-3f11-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>d7584240-9ead-3e7e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>e5dc4879-123b-3818-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>f0d80773-fbb7-3366-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>b95e26d5-bcc5-3e3c-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>eecf017f-4b4d-3247-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>18bdb45e-6cc8-367b-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan1</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>00ec6978-9f56-3afd-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>2718d413-64a9-3bb2-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>67059903-7cd5-379e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>0861d648-52c3-3be0-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>7b94c730-ecd1-3c99-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>18bdb45e-6cc8-367b-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>1aaee5fe-eaec-33dc-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>44db6d4a-2f57-3728-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>1b728f94-a8bc-3223-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>a13c9dd1-7e06-3864-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>04d25919-cc50-33ea-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>221f1355-6650-35f8-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>b95e26d5-bcc5-3e3c-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan10</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>25f6ef80-ac36-3bfc-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>60982da8-ff62-3993-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan6</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>28b350f1-5638-3ff7-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <bends>
+        <x>2412.289833209455</x>
+        <y>430.14535734460117</y>
+      </bends>
+      <bends>
+        <x>2412.289833209455</x>
+        <y>480.14535734460117</y>
+      </bends>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>44db6d4a-2f57-3728-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <selectedRelationships>incompatible</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>44db6d4a-2f57-3728-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>2b105386-a912-32ef-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>0fe91330-1a76-3316-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan7</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>39429205-acc8-3fbd-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>04d25919-cc50-33ea-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan4</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>4b47ecdf-5a02-36ab-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>fab7cb8a-6ceb-37fd-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>461c63e0-f9c1-3011-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>4fde22a0-6337-34f0-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>8a1835a9-7909-3030-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>60982da8-ff62-3993-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>564ae83c-085e-35aa-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>894d8f81-031f-3d75-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan9</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>728418e5-2fcc-3f6a-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>d7584240-9ead-3e7e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>turbofan8</selectedRelationships>
+      <source>
+        <groupId>8e3f43f6-9ba8-314b-0000-000000000000</groupId>
+        <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <processors>
+      <id>83ef7a99-a5f3-3702-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>2561.580530166626</x>
+        <y>1118.9426825044402</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>894d8f81-031f-3d75-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>3422.0223867845393</x>
+        <y>913.5411650346194</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>8a1835a9-7909-3030-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>2129.772668838501</x>
+        <y>1121.746088266159</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>a13c9dd1-7e06-3864-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1293.9602603912354</x>
+        <y>1124.426264047409</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>adc542a1-e3cc-3d3d-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1957.2557715970179</x>
+        <y>0.0</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Input Directory</key>
+            <value>
+              <name>Input Directory</name>
+            </value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>
+              <name>File Filter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+            <value>
+              <name>Path Filter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Keep Source File</key>
+            <value>
+              <name>Keep Source File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>
+              <name>Recurse Subdirectories</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>
+              <name>Polling Interval</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>
+              <name>Ignore Hidden Files</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>
+              <name>Minimum File Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+            <value>
+              <name>Maximum File Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>
+              <name>Minimum File Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+            <value>
+              <name>Maximum File Size</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Input Directory</key>
+            <value>/tmp</value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>turbofan_data.txt</value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>10</value>
+          </entry>
+          <entry>
+            <key>Keep Source File</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>0 B</value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>80 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Collect TurboFan Data</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.GetFile</type>
+    </processors>
+    <processors>
+      <id>b95e26d5-bcc5-3e3c-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>3836.3229238939143</x>
+        <y>914.5102812455569</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>bf12078a-0055-3d11-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>434.73455810546875</x>
+        <y>1116.863031625534</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>d7584240-9ead-3e7e-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>2991.7013418626643</x>
+        <y>914.1740996049319</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>df6bf060-2c4b-3f11-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>2993.388391494751</x>
+        <y>1117.6025946138152</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>f0d80773-fbb7-3366-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>3842.370813369751</x>
+        <y>1114.9224188325652</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>f5f2aa00-c0fd-3044-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>432.20334839342604</x>
+        <y>914.7678496049319</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>fab7cb8a-6ceb-37fd-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>866.5424165725708</x>
+        <y>1116.986322641159</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>04d25919-cc50-33ea-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1292.8456289720393</x>
+        <y>916.7060209916507</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>0fe91330-1a76-3316-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>2558.176073307977</x>
+        <y>919.6132475541507</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>18bdb45e-6cc8-367b-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>3.4842321824885403</x>
+        <y>915.4007841752444</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>1ec09ae7-6acb-3703-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>3422.269739151001</x>
+        <y>1114.7991888520964</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>2718d413-64a9-3bb2-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1715.5248050689697</x>
+        <y>1126.0128729341277</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+    <processors>
+      <id>433e747b-5bf9-3220-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1957.2215613919398</x>
+        <y>198.29911708831787</y>
+      </position>
+      <bundle>
+        <artifact>nifi-scripting-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Script Engine</key>
+            <value>
+              <name>Script Engine</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Script File</key>
+            <value>
+              <name>Script File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Script Body</key>
+            <value>
+              <name>Script Body</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Module Directory</key>
+            <value>
+              <name>Module Directory</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Script Engine</key>
+            <value>python</value>
+          </entry>
+          <entry>
+            <key>Script File</key>
+          </entry>
+          <entry>
+            <key>Script Body</key>
+            <value>import json
+import sys, re
+import datetime, time
+import traceback
+from java.nio.charset import StandardCharsets
+from org.apache.commons.io import IOUtils
+from org.apache.nifi.processor.io import InputStreamCallback, OutputStreamCallback
+from org.python.core.util import StringUtil
+
+
+class WriteCallback(OutputStreamCallback):
+    def __init__(self):
+        self.content = None
+        self.charset = StandardCharsets.UTF_8
+    
+    def process(self, outputStream):
+        bytes = bytearray(self.content.encode('utf-8'))
+        outputStream.write(bytes)
+
+
+class SplitCallback(InputStreamCallback):
+    def __init__(self):
+        self.parentFlowFile = None
+    
+    def process(self, inputStream):
+        try:
+            # Read input FlowFile content
+            data   = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+            lines  = data.split('\n')
+            splits = []
+            for line in lines:
+                line = line.strip()
+                records = line.split()
+                if len(records) == 26:
+                    splitFlowFile = session.create(self.parentFlowFile)
+                    writeCallback = WriteCallback()
+                    writeCallback.content = line.replace(' ',',')
+                    splitFlowFile = session.write(splitFlowFile, writeCallback)
+                    splitFlowFile = session.putAllAttributes(splitFlowFile, {
+                        'unit_number': records[0],
+                        'cycle_time': records[1],
+                        'op_setting1': records[2],
+                        'op_setting2': records[3],
+                        'op_setting3': records[4],
+                        'sensor1': records[5],
+                        'sensor2': records[6],
+                        'sensor3': records[7],
+                        'sensor4': records[8],
+                        'sensor5': records[9],
+                        'sensor6': records[10],
+                        'sensor7': records[11],
+                        'sensor8': records[12],
+                        'sensor9': records[13],
+                        'sensor10': records[14],
+                        'sensor11': records[15],
+                        'sensor12': records[16],
+                        'sensor13': records[17],
+                        'sensor14': records[18],
+                        'sensor15': records[19],
+                        'sensor16': records[20],
+                        'sensor17': records[21],
+                        'sensor18': records[22],
+                        'sensor19': records[23],
+                        'sensor20': records[24],
+                        'sensor21': records[25]
+                    })
+                    
+                    splits.append(splitFlowFile)
+            
+            for splitFlowFile in splits:
+                session.transfer(splitFlowFile, REL_SUCCESS)
+            
+        except:
+            traceback.print_exc(file=sys.stdout)
+            raise
+
+
+parentFlowFile = session.get()
+if parentFlowFile != None:
+    splitCallback = SplitCallback()
+    splitCallback.parentFlowFile = parentFlowFile
+    session.read(parentFlowFile, splitCallback)
+    session.remove(parentFlowFile)
+
+
+#ZEND</value>
+          </entry>
+          <entry>
+            <key>Module Directory</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Parse Records</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.script.ExecuteScript</type>
+    </processors>
+    <processors>
+      <id>44db6d4a-2f57-3728-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1957.289833209455</x>
+        <y>390.14535734460117</y>
+      </position>
+      <bundle>
+        <artifact>nifi-kite-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Hadoop configuration files</key>
+            <value>
+              <name>Hadoop configuration files</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Record schema</key>
+            <value>
+              <name>Record schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>CSV charset</key>
+            <value>
+              <name>CSV charset</name>
+            </value>
+          </entry>
+          <entry>
+            <key>CSV delimiter</key>
+            <value>
+              <name>CSV delimiter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>CSV quote character</key>
+            <value>
+              <name>CSV quote character</name>
+            </value>
+          </entry>
+          <entry>
+            <key>CSV escape character</key>
+            <value>
+              <name>CSV escape character</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Use CSV header line</key>
+            <value>
+              <name>Use CSV header line</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Lines to skip</key>
+            <value>
+              <name>Lines to skip</name>
+            </value>
+          </entry>
+          <entry>
+            <key>kite-compression-type</key>
+            <value>
+              <name>kite-compression-type</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Hadoop configuration files</key>
+            <value>/tmp/core-site.xml,/tmp/hdfs-site.xml</value>
+          </entry>
+          <entry>
+            <key>Record schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>CSV charset</key>
+            <value>utf8</value>
+          </entry>
+          <entry>
+            <key>CSV delimiter</key>
+            <value>,</value>
+          </entry>
+          <entry>
+            <key>CSV quote character</key>
+            <value>"</value>
+          </entry>
+          <entry>
+            <key>CSV escape character</key>
+            <value>\</value>
+          </entry>
+          <entry>
+            <key>Use CSV header line</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Lines to skip</key>
+            <value>0</value>
+          </entry>
+          <entry>
+            <key>kite-compression-type</key>
+            <value>SNAPPY</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ConvertCSVToAvro</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>incompatible</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.kite.ConvertCSVToAvro</type>
+    </processors>
+    <processors>
+      <id>461c63e0-f9c1-3011-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>865.7286207628108</x>
+        <y>917.3390165971194</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>60982da8-ff62-3993-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>2129.4569570970393</x>
+        <y>921.8482939408694</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>67059903-7cd5-379e-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1713.5543692064143</x>
+        <y>920.8792387650882</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>
+              <name>Rate Control Criteria</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>
+              <name>Maximum Rate</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+            <value>
+              <name>Rate Controlled Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>
+              <name>Time Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+            <value>
+              <name>Grouping Attribute</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Rate Control Criteria</key>
+            <value>flowfile count</value>
+          </entry>
+          <entry>
+            <key>Maximum Rate</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Rate Controlled Attribute</key>
+          </entry>
+          <entry>
+            <key>Time Duration</key>
+            <value>1 sec</value>
+          </entry>
+          <entry>
+            <key>Grouping Attribute</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ControlRate</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ControlRate</type>
+    </processors>
+    <processors>
+      <id>6aa58eb6-91eb-3c4d-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>1955.0349881894333</x>
+        <y>593.702042606227</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Routing Strategy</key>
+            <value>
+              <name>Routing Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan1</key>
+            <value>
+              <name>turbofan1</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan10</key>
+            <value>
+              <name>turbofan10</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan2</key>
+            <value>
+              <name>turbofan2</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan3</key>
+            <value>
+              <name>turbofan3</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan4</key>
+            <value>
+              <name>turbofan4</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan5</key>
+            <value>
+              <name>turbofan5</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan6</key>
+            <value>
+              <name>turbofan6</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan7</key>
+            <value>
+              <name>turbofan7</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan8</key>
+            <value>
+              <name>turbofan8</name>
+            </value>
+          </entry>
+          <entry>
+            <key>turbofan9</key>
+            <value>
+              <name>turbofan9</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Routing Strategy</key>
+            <value>Route to Property name</value>
+          </entry>
+          <entry>
+            <key>turbofan1</key>
+            <value>${unit_number:equals('1')}</value>
+          </entry>
+          <entry>
+            <key>turbofan10</key>
+            <value>${unit_number:equals('10')}</value>
+          </entry>
+          <entry>
+            <key>turbofan2</key>
+            <value>${unit_number:equals('2')}</value>
+          </entry>
+          <entry>
+            <key>turbofan3</key>
+            <value>${unit_number:equals('3')}</value>
+          </entry>
+          <entry>
+            <key>turbofan4</key>
+            <value>${unit_number:equals('4')}</value>
+          </entry>
+          <entry>
+            <key>turbofan5</key>
+            <value>${unit_number:equals('5')}</value>
+          </entry>
+          <entry>
+            <key>turbofan6</key>
+            <value>${unit_number:equals('6')}</value>
+          </entry>
+          <entry>
+            <key>turbofan7</key>
+            <value>${unit_number:equals('7')}</value>
+          </entry>
+          <entry>
+            <key>turbofan8</key>
+            <value>${unit_number:equals('8')}</value>
+          </entry>
+          <entry>
+            <key>turbofan9</key>
+            <value>${unit_number:equals('9')}</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>RouteOnAttribute</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan1</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan10</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan2</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan3</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan4</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan5</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan6</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan7</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan8</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>turbofan9</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+    </processors>
+    <processors>
+      <id>7b94c730-ecd1-3c99-0000-000000000000</id>
+      <parentGroupId>8e3f43f6-9ba8-314b-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>1113.8131048677214</y>
+      </position>
+      <bundle>
+        <artifact>nifi-esp-nar</artifact>
+        <group>default</group>
+        <version>unversioned</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>host</key>
+            <value>
+              <name>host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>
+              <name>port</name>
+            </value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>
+              <name>project</name>
+            </value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>
+              <name>contquery</name>
+            </value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>
+              <name>window</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>
+              <name>schema</name>
+            </value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+            <value>
+              <name>blocksize</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+            <value>
+              <name>dateformat</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>
+              <name>insertsToUpserts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+            <value>
+              <name>authUser</name>
+            </value>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+            <value>
+              <name>oauthToken</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>host</key>
+            <value>localhost</value>
+          </entry>
+          <entry>
+            <key>port</key>
+            <value>5601</value>
+          </entry>
+          <entry>
+            <key>project</key>
+            <value>esp_turbofan_project</value>
+          </entry>
+          <entry>
+            <key>contquery</key>
+            <value>cq</value>
+          </entry>
+          <entry>
+            <key>window</key>
+            <value>window1</value>
+          </entry>
+          <entry>
+            <key>schema</key>
+            <value>{
+ "type": "record",
+ "namespace": "turbofan",
+ "name": "turbofan",
+ "fields": [
+  {
+   "name": "unit_number",
+   "type": "string"
+  },
+  {
+   "name": "cycle_time",
+   "type": "string"
+  },
+  {
+   "name": "op_setting1",
+   "type": "string"
+  },
+  {
+   "name": "op_setting2",
+   "type": "string"
+  },
+  {
+   "name": "op_setting3",
+   "type": "string"
+  },
+  {
+   "name": "sensor1",
+   "type": "string"
+  },
+  {
+   "name": "sensor2",
+   "type": "string"
+  },
+  {
+   "name": "sensor3",
+   "type": "string"
+  },
+  {
+   "name": "sensor4",
+   "type": "string"
+  },
+  {
+   "name": "sensor5",
+   "type": "string"
+  },
+  {
+   "name": "sensor6",
+   "type": "string"
+  },
+  {
+   "name": "sensor7",
+   "type": "string"
+  },
+  {
+   "name": "sensor8",
+   "type": "string"
+  },
+  {
+   "name": "sensor9",
+   "type": "string"
+  },
+  {
+   "name": "sensor10",
+   "type": "string"
+  },
+  {
+   "name": "sensor11",
+   "type": "string"
+  },
+  {
+   "name": "sensor12",
+   "type": "string"
+  },
+  {
+   "name": "sensor13",
+   "type": "string"
+  },
+  {
+   "name": "sensor14",
+   "type": "string"
+  },
+  {
+   "name": "sensor15",
+   "type": "string"
+  },
+  {
+   "name": "sensor16",
+   "type": "string"
+  },
+  {
+   "name": "sensor17",
+   "type": "string"
+  },
+  {
+   "name": "sensor18",
+   "type": "string"
+  },
+  {
+   "name": "sensor19",
+   "type": "string"
+  },
+  {
+   "name": "sensor20",
+   "type": "string"
+  },
+  {
+   "name": "sensor21",
+   "type": "string"
+  }
+ ]
+}</value>
+          </entry>
+          <entry>
+            <key>blocksize</key>
+          </entry>
+          <entry>
+            <key>dateformat</key>
+          </entry>
+          <entry>
+            <key>insertsToUpserts</key>
+            <value>no</value>
+          </entry>
+          <entry>
+            <key>authUser</key>
+          </entry>
+          <entry>
+            <key>oauthToken</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutESP</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.sas.nifi.processors.esp.PutESP</type>
+    </processors>
+  </snippet>
+  <timestamp>09/15/2017 12:49:32 EDT</timestamp>
+</template>
