@@ -5,3 +5,5 @@ This project collects, routes, and analyzes turbofan data streams in real-time u
 <br>
 <br>NOTE: This project requires a .NAR file (nifi-esp-nar-5.1.nar), which can be downloaded from SAS as part of the SAS ESP Software Depot.
 <br>
+<img src="nifi_esp_screenshot.png" alt="nifi_esp_screenshot.png">
+<br>
