@@ -175,6 +175,276 @@
       </source>
       <zIndex>0</zIndex>
     </connections>
+    <controllerServices>
+      <id>b7b29151-b701-313d-0000-000000000000</id>
+      <parentGroupId>fa5f10c5-f8a9-3b88-0000-000000000000</parentGroupId>
+      <bundle>
+        <artifact>nifi-record-serialization-services-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>Schema Write Strategy</key>
+          <value>
+            <name>Schema Write Strategy</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-access-strategy</key>
+          <value>
+            <name>schema-access-strategy</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-registry</key>
+          <value>
+            <identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+            <name>schema-registry</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-name</key>
+          <value>
+            <name>schema-name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-text</key>
+          <value>
+            <name>schema-text</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>AvroRecordSetWriter</name>
+      <persistsState>false</persistsState>
+      <properties>
+        <entry>
+          <key>Schema Write Strategy</key>
+          <value>hwx-content-encoded-schema</value>
+        </entry>
+        <entry>
+          <key>schema-access-strategy</key>
+        </entry>
+        <entry>
+          <key>schema-registry</key>
+          <value>66f6a66e-12b7-3856-0000-000000000000</value>
+        </entry>
+        <entry>
+          <key>schema-name</key>
+          <value>nfl_prediction</value>
+        </entry>
+        <entry>
+          <key>schema-text</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.avro.AvroRecordSetWriter</type>
+    </controllerServices>
+    <controllerServices>
+      <id>242fc72b-4d0b-3923-0000-000000000000</id>
+      <parentGroupId>fa5f10c5-f8a9-3b88-0000-000000000000</parentGroupId>
+      <bundle>
+        <artifact>nifi-record-serialization-services-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>schema-access-strategy</key>
+          <value>
+            <name>schema-access-strategy</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-registry</key>
+          <value>
+            <identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+            <name>schema-registry</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-name</key>
+          <value>
+            <name>schema-name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>schema-text</key>
+          <value>
+            <name>schema-text</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Date Format</key>
+          <value>
+            <name>Date Format</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Time Format</key>
+          <value>
+            <name>Time Format</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Timestamp Format</key>
+          <value>
+            <name>Timestamp Format</name>
+          </value>
+        </entry>
+        <entry>
+          <key>CSV Format</key>
+          <value>
+            <name>CSV Format</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Value Separator</key>
+          <value>
+            <name>Value Separator</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Skip Header Line</key>
+          <value>
+            <name>Skip Header Line</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Quote Character</key>
+          <value>
+            <name>Quote Character</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Escape Character</key>
+          <value>
+            <name>Escape Character</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Comment Marker</key>
+          <value>
+            <name>Comment Marker</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Null String</key>
+          <value>
+            <name>Null String</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Trim Fields</key>
+          <value>
+            <name>Trim Fields</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>CSVReader</name>
+      <persistsState>false</persistsState>
+      <properties>
+        <entry>
+          <key>schema-access-strategy</key>
+          <value>schema-name</value>
+        </entry>
+        <entry>
+          <key>schema-registry</key>
+          <value>66f6a66e-12b7-3856-0000-000000000000</value>
+        </entry>
+        <entry>
+          <key>schema-name</key>
+          <value>nfl_prediction</value>
+        </entry>
+        <entry>
+          <key>schema-text</key>
+        </entry>
+        <entry>
+          <key>Date Format</key>
+        </entry>
+        <entry>
+          <key>Time Format</key>
+        </entry>
+        <entry>
+          <key>Timestamp Format</key>
+        </entry>
+        <entry>
+          <key>CSV Format</key>
+        </entry>
+        <entry>
+          <key>Value Separator</key>
+        </entry>
+        <entry>
+          <key>Skip Header Line</key>
+        </entry>
+        <entry>
+          <key>Quote Character</key>
+        </entry>
+        <entry>
+          <key>Escape Character</key>
+        </entry>
+        <entry>
+          <key>Comment Marker</key>
+        </entry>
+        <entry>
+          <key>Null String</key>
+        </entry>
+        <entry>
+          <key>Trim Fields</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.csv.CSVReader</type>
+    </controllerServices>
+    <controllerServices>
+      <id>66f6a66e-12b7-3856-0000-000000000000</id>
+      <parentGroupId>fa5f10c5-f8a9-3b88-0000-000000000000</parentGroupId>
+      <bundle>
+        <artifact>nifi-hwx-schema-registry-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>url</key>
+          <value>
+            <name>url</name>
+          </value>
+        </entry>
+        <entry>
+          <key>cache-size</key>
+          <value>
+            <name>cache-size</name>
+          </value>
+        </entry>
+        <entry>
+          <key>cache-expiration</key>
+          <value>
+            <name>cache-expiration</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>HortonworksSchemaRegistry</name>
+      <persistsState>false</persistsState>
+      <properties>
+        <entry>
+          <key>url</key>
+          <value>http://dzaratsian0.field.hortonworks.com:7788/api/v1</value>
+        </entry>
+        <entry>
+          <key>cache-size</key>
+        </entry>
+        <entry>
+          <key>cache-expiration</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.schemaregistry.hortonworks.HortonworksSchemaRegistry</type>
+    </controllerServices>
     <processors>
       <id>926074a6-e5ce-3ca6-0000-000000000000</id>
       <parentGroupId>fa5f10c5-f8a9-3b88-0000-000000000000</parentGroupId>
@@ -478,46 +748,45 @@ class SplitCallback(InputStreamCallback):
     self.parentFlowFile = None
   
   def process(self, inputStream):
-    
     splitFlowFile = session.create(self.parentFlowFile)
     writeCallback = WriteCallback()
+    try:        
+        # To read content as a string:
+        data = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+        vars = data.split(',')
+        
+        down = vars[0]
+        qtr = vars[1]
+        month_day = vars[2]
+        playtype_lag_index = vars[3]
+        timesecs = vars[4]
+        ydsnet = vars[5]
+        ydstogo = vars[6]
+        yrdline100 = vars[7]
+        
+        accessToken = splitFlowFile.getAttribute('accessToken')
+        
+        curl_input = ['curl', '-i', '-k', '-X', 'POST', 'https://172.26.228.121/v2/scoring/online/32b1d108-369d-42ce-966b-48d0a20a6b38', '-d', '{"fields":["down","qtr","month_day","PlayType_lag_index","TimeSecs","ydsnet","ydstogo","yrdline100"],"records":[[' + str(down) + ',' + str(qtr) + ',' + str(month_day) + ',"' + str(playtype_lag_index) + '",' + str(timesecs) + ',' + str(ydsnet) + ',' + str(ydstogo) + ',' + str(yrdline100) + ']]}', '-H', 'content-type:application/json', '-H', str('authorization: Bearer ' + str(accessToken))]
+        
+        result = subprocess.Popen(curl_input, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        
+        out, err = result.communicate()
+        
+        prediction_results       = json.loads(out.split('\r\n')[-1])['records'][0]
+        predictions_yards_gained = str(prediction_results[-1])
+        
+        #predictions_csv = str(predictions[0][0]) + ',' + str(predictions[0][1]) + ',' + str(predictions[1]) + ',' + str(predictions[2])
+        payload = ','.join([str(record) for i,record in enumerate(prediction_results) if i != 8])
+        writeCallback.content = payload
+        splitFlowFile = session.write(splitFlowFile, writeCallback)
+        splitFlowFile = session.putAllAttributes(splitFlowFile, {
+                'predictions_yards_gained': predictions_yards_gained
+            })
     
-    # To read content as a string:
-    data = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
-    vars = data.split(',')
-    
-    down = vars[0]
-    qtr = vars[1]
-    month_day = vars[2]
-    playtype_lag_index = vars[3]
-    timesecs = vars[4]
-    ydsnet = vars[5]
-    ydstogo = vars[6]
-    yrdline100 = vars[7]
-    
-    accessToken = splitFlowFile.getAttribute('accessToken')
-    
-    curl_input = ['curl', '-i', '-k', '-X', 'POST', 'https://172.26.228.121/v2/scoring/online/32b1d108-369d-42ce-966b-48d0a20a6b38', '-d', '{"fields":["down","qtr","month_day","PlayType_lag_index","TimeSecs","ydsnet","ydstogo","yrdline100"],"records":[[' + str(down) + ',' + str(qtr) + ',' + str(month_day) + ',"' + str(playtype_lag_index) + '",' + str(timesecs) + ',' + str(ydsnet) + ',' + str(ydstogo) + ',' + str(yrdline100) + ']]}', '-H', 'content-type:application/json', '-H', str('authorization: Bearer ' + str(accessToken))]
-    
-    result = subprocess.Popen(curl_input, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    
-    out, err = result.communicate()
-    
-    prediction_results       = json.loads(out.split('\r\n')[-1])['records'][0]
-    predictions_yards_gained = str(prediction_results[-1])
-    
-    #predictions_csv = str(predictions[0][0]) + ',' + str(predictions[0][1]) + ',' + str(predictions[1]) + ',' + str(predictions[2])
-    payload = ','.join([str(record) for i,record in enumerate(prediction_results) if i != 8])
-    writeCallback.content = payload
-    splitFlowFile = session.write(splitFlowFile, writeCallback)
-    splitFlowFile = session.putAllAttributes(splitFlowFile, {
-            'predictions_yards_gained': predictions_yards_gained
-        })
+    except:
+        pass
     
     session.transfer(splitFlowFile, REL_SUCCESS)
-    
-    # Write modified content
-    #outstream.write(str(output))
 
 
 parentFlowFile = session.get()
@@ -748,16 +1017,19 @@ if parentFlowFile != None:
         <properties>
           <entry>
             <key>bootstrap.servers</key>
-            <value>localhost:9092</value>
+            <value>dzaratsian0.field.hortonworks.com:6667</value>
           </entry>
           <entry>
             <key>topic</key>
+            <value>nfl_prediction</value>
           </entry>
           <entry>
             <key>record-reader</key>
+            <value>242fc72b-4d0b-3923-0000-000000000000</value>
           </entry>
           <entry>
             <key>record-writer</key>
+            <value>b7b29151-b701-313d-0000-000000000000</value>
           </entry>
           <entry>
             <key>security.protocol</key>
@@ -821,5 +1093,5 @@ if parentFlowFile != None:
       <type>org.apache.nifi.processors.kafka.pubsub.PublishKafkaRecord_0_10</type>
     </processors>
   </snippet>
-  <timestamp>10/26/2017 14:31:22 UTC</timestamp>
+  <timestamp>10/26/2017 21:36:55 UTC</timestamp>
 </template>
